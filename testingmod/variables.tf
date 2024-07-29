@@ -5,7 +5,7 @@ variable "subnetwork" {
   default = ""
 }
 variable "subnetwork_project" {
-  default = ""
+  default = "test"
 }
 variable "hostname" {
   default = ""
