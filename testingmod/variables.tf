@@ -1,5 +1,5 @@
 variable "network" {
-  default = ""
+  default = "test22"
 }
 variable "subnetwork" {
   default = ""
