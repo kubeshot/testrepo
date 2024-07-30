@@ -8,7 +8,7 @@ variable "subnetwork_project" {
   default = 
 }
 variable "hostname" {
-  default = test
+  default = 
 }
 variable "add_hostname_suffix" {
   default = True
@@ -26,7 +26,7 @@ variable "num_instances" {
   default = 1
 }
 variable "instance_template" {
-  default = 
+  default = test
 }
 variable "region" {
   default = 
