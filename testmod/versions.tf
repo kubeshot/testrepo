@@ -15,14 +15,14 @@
  */
 
 terraform {
-  required_version = ">=1.3"
+  required_version = ">=0.13.0"
   required_providers {
-    google-beta = {
-      source  = "hashicorp/google-beta"
-      version = ">= 5.5, < 6"
+    google = {
+      source  = "hashicorp/google"
+      version = ">= 3.88, < 6"
     }
   }
   provider_meta "google" {
-    module_name = "blueprints/terraform/terraform-google-vm:instance_template/v11.1.0"
+    module_name = "blueprints/terraform/terraform-google-vm:compute_instance/v11.1.0"
   }
 }
