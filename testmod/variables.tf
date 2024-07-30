@@ -8,7 +8,7 @@ variable "subnetwork_project" {
   default = 
 }
 variable "hostname" {
-  default = test
+  default = testing
 }
 variable "add_hostname_suffix" {
   default = True
